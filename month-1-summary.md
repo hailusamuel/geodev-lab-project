@@ -21,7 +21,13 @@ Large settlements (towns) known to have partial water source coverage are under 
 This suggests water sources database is not complete and well distributed.
 
 ## Limitations
+- Straight line distance form water sources is considered (2 km buffer) not travel distance
+- Water points data base has gaps both in terms of number of sources and their distribution
+- Water points data base has undefined source type values ('Unknown', 'Other')
 
+## What I still need
+- Road network with surface, to calculate travel distance from water sources
+- Additional water sources data from different sources to enrich the database
 
 
 
