@@ -11,6 +11,11 @@ month-1-summary.md summarizes data processing (operations) expected results, abn
 
 Water sources coverage gaps.png is the map produced in response to the project question 🙋.
 
+# The terminal and VS code
+hello.py - file created in VS code to check the terminal reads python file (working python extension)
+
+screenshots/week5.png - screenshot of the VS code terminal running python commands
+
 
 
 
