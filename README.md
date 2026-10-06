@@ -17,7 +17,12 @@ Week 5: set up Python, VS Code and the terminal
 hello.py - file created in VS code to check the terminal reads python file (working python extension)
 screenshots/week5.png - screenshot of the VS code terminal running python commands
 
+Week 6: set up the project with uv and add pandas
 
+check.py - file created in VS code to check pandas is installed (prints pandas version)
+project.toml - automatically created by uv init (start project) showing project descriptions and list of dependacy
 
+uv.lock - automatically created by uv add (install package) and updated after every package installation; not to be edited manaually
 
+screenshots/week6.png - screenshot of the VS code terminal uv running python commands
 
