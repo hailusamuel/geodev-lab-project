@@ -26,3 +26,6 @@ uv.lock - automatically created by uv add (install package) and updated after ev
 
 screenshots/week6.png - screenshot of the VS code terminal uv running python commands
 
+Week 7: python, the variable, the type, the list, the loop, the condition and the function
+
+analyse.py ready wards.csv, converts each area and classifies each ward based on size
