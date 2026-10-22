@@ -29,3 +29,8 @@ screenshots/week6.png - screenshot of the VS code terminal uv running python com
 Week 7: python, the variable, the type, the list, the loop, the condition and the function
 
 analyse.py ready wards.csv, converts each area and classifies each ward based on size
+
+Week 8: inspect_data.py summarizes shebelle_waterpoints.csv
+it gives count, minimum, maximum and average for the columns of 'SWL_elv', 'TDS', 'Transmissi' and 'SWL(m)'
+it also prints the count of non-numeric values not converted to float, and return the summaries for numeric columns
+if the count of float values is zero for a given column, it displays  "There are no values in the column."
