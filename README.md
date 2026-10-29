@@ -35,9 +35,10 @@ it gives count, minimum, maximum and average for the columns of 'SWL_elv', 'TDS'
 it also prints the count of non-numeric values not converted to float, and return the summaries for numeric columns
 if the count of float values is zero for a given column, it displays  "There are no values in the column."
 
+Week 9: Refactoring - reshaping the previous inspect_data.py file to summary.py, by breaking up in to small functions each doing one of these tasks: opening, cleaning, summarising.
+summary.py has four small functions each doing opening data, cleaning, summarizing and reporting respectively. 
+
 # Month 2 reflections
 it lays foundation for development, preparing the environment and modules. using uv is simple and handle installed packages as compared to the famous pip.
-
-Week 9: Refactoring - reshaping the previous inspect_data.py file to summary.py, by breaking up in to small functions each doing one of these tasks: opening, cleaning, summarising.
-summary.py four small functions each doing opening data, cleaning, summarizing and reporting respectively. The six building blocks of python (other prog. languages) are applied for scripting the workflow of month 1. Sequence of python commands are prepared for reading month one data, changing numerical columns to float() or int(), removing empty values and summarize the column data. Finally those commands are refactored in to functions each doing one task, handy for reading and modifying when necessary. 
+The six building blocks of python (other prog. languages) are applied for scripting the workflow of month 1. Sequence of python commands are prepared for reading month one data, changing numerical columns to float() or int(), removing empty values and summarize the column data. Finally those commands are refactored in to small functions each doing one task, handy for reading and modifying when necessary. 
 
