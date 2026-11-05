@@ -1,0 +1,19 @@
+To install uv in powershell go to the project directory and command:
+
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex" 
+
+To check installation:
+
+uv --version
+
+Start a project inside project directory, cd to your project directory:
+
+uv init
+
+To install packages in the project:
+
+uv add pandas
+
+To run python files:
+
+uv run check.py

@@ -1,0 +1,5 @@
+There are 562 non-numeric values in the column 'SWL(m)'.
+SWL masl.: {'smallest': -65.0, 'largest': 3568.0, 'average': 1154.4590534682081, 'count': 1384}
+TDS mg/L.: {'smallest': 0.0, 'largest': 9456.0, 'average': 861.512077294686, 'count': 414}
+Transmissivity: There are no values in the column 'Transmissi'.
+SWL(m).: {'smallest': 0.2, 'largest': 190.0, 'average': 24.842639405204462, 'count': 269}
