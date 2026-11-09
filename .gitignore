@@ -8,6 +8,9 @@ wheels/
 
 # Virtual environments
 .venv
-notes.txt
+*.txt
+*.tif
+*.TIF
+*.zip
 learn.py
 wards.csv
