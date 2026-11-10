@@ -27,6 +27,6 @@ uv run month-03/week-10/join_population.py
 - the results of bounds of Shebelle_basin_boundary.gpkg is similar to the extent bounds from QGIS. the terminal displayes min X, min Y and max X and max Y values respectivly
 
 # What went wrong and how I fixed it
-- wehen joining one table to one layer based on int join field, cleaning functions for text field (strip(), upper(), replace()) generate error (the functions are not applicable for int field)
+- When joining one table to one layer based on int join field, cleaning functions for text field (strip(), upper(), replace()) generate error (the functions are not applicable for int field); this is fixed by removing the cleaning function; all the fields are joined 100% on the first try
 
-- this is fixed by removing the cleaning function; all the fields are joined 100% on the first try
+- Calling plt.show() before plt.savefig() resulted showing the correct map but saving blank png file. This is because when plt.show() is executed, it clears the current active figure window and plt.savefig() is saving a brand-new, empty canvas. This is corrected by calling plt.show() after plt.savefig()

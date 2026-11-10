@@ -17,6 +17,7 @@ print(joined[["fid", "Sub_Basin"]].head(10))
 
 joined.plot(column="Sub_Basin", legend=True, cmap = "viridis",figsize=(10, 10))
 plt.title("Water Points by Sub-Basin")
-plt.show()
 plt.savefig("month-03/week-10/my_joined_map.png", dpi=150, bbox_inches="tight")
+
+plt.show()
 print("Map saved to month-03/week-10/my_joined_map.png")
